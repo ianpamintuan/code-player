@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Mark Ian Pamintuan">
+    <title>Code Player</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        
+        <div class="container">
+        
+            <div id="branding">
+                <h1>Code Player</h1>
+            </div>
+            
+            <div id="menu">
+                <div class="toggleButton active" id="html">HTML</div>
+                <div class="toggleButton" id="css">CSS</div>
+                <div class="toggleButton" id="js">JS</div>
+                <div class="toggleButton active" id="output">Output</div>
+            </div>
+        
+        </div>
+        
+    </nav>
+    
+    <div class="clearfix"></div>
+    
+    <section id="textPanels">
+        
+        <div class="container">
+        
+            <textarea class="panels" id="htmlArea"></textarea>
+            <textarea class="panels hidden" id="cssArea"></textarea>
+            <textarea class="panels hidden"  id="jsArea"></textarea>
+            <iframe class="panels" id="outputArea"></iframe>
+            
+        </div>
+        
+    </section>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
